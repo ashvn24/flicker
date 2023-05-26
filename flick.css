@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+    height: 40px;
+    width: 100%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 0;
+    margin-right: 0;
+    text-align: center;
+    justify-content: center;
+    background: transparent;
+    padding: 10px 0 10px 0;
+    position: absolute;
+}
+.txt{
+    width: 700px;
+    /* height: 40px; */
+    margin-left: 10px;
+    /* visibility: hidden; */
+    
+    border: none;
+    padding: 10px;
+    
+}
+.icon{
+    margin-left: 20px;
+    margin-right: 40px;
+    display: flex;
+}
+.btn1{
+    margin-right:10px;
+    margin-top: 5px;
+    background: #fff;
+    color: #000000;
+    font-weight: 700;
+    border:none;
+}
+.btn2{
+    margin-right:10px;
+    margin-top: 5px;
+    background: transparent;
+    border: none;
+    font-weight: 700;
+
+}
+.btnn{
+    margin-left: 90px;
+}
+.carosel{
+    /* height: 100dvh; */
+    position: absolute;
+    width: 100%;
+    /* height: 100vh; */
+    /* background-size:cover ; */
+}
+/* .carousel-inner { */
+    /* make sure your .items will get correct height */
+    /* height: 100%; */
+  /* } */
+  .carousel-item{
+    background-size: cover;
+    background-position: 50% 50%;
+    width: 100%;
+    /* height: 100%; */
+  }
+  .carousel-item img{
+    object-fit:cover;
+  /* height:100dvh ; */
+  height: 628px;
+  width:100%;
+  object-fit: cover;
+  }
+  .carousel img {
+    width:100% !important;
+    /* min-width:100 !important; */
+    /* height: auto; */
+    object-fit:cover;
+}
+.head{
+    background: rgba(138, 135, 135, 0.452);
+    opacity: .8;
+    position: relative;
+    height: 65px;
+}
+/* .footer{
+    height: 50px;
+    width: 100%;
+    background-color: #000000;
+    text-align: center;
+    justify-content: center;
+}
+.footer ul li a{
+    color: #ffffff;
+    margin-top: 4px;
+
+}
+.footer ul li{
+    margin-right: 10px;
+} */
+.container-fluid {
+    position: relative;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  .container-fluid a{
+    color: rgb(151, 148, 148);
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+  }
+
+  .main-head {
+    position: absolute;
+    top: 0px;
+    left: 2px;
+    width: 102%;
+}
+ .backpic{
+    background-color: #000000;
+ }
+ .start-free{
+    background-color: #fff;
+    color: #000000;
+    font-weight: 700;
+    justify-content: center;
+    height: 60px;
+}
+@media(max-width:400px){
+    .display-3{
+        font-size: 32px;
+    }
+    .btnn{
+        margin-left: 30PX;
+    }
+    
+}
+@media(max-width:400px){
+    
+}
